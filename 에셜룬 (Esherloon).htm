@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <script src="/cdn-cgi/apps/head/dLVWuWdwLk8d0HdGniDfX6HaNJA.js"></script><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>에셜룬 (Esherloon)</title>
+        <meta name="description" content="Who is Esherloon?">
+        <meta property="og:title" content="에셜룬 (Esherloon)">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://esherloon.com">
+        <meta property="og:description" content="Who is Esherloon?">
+        <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/purple/pace-theme-flash.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">에셜룬</h2>
+                    <h3 class="profile__profession">Esherloon</h3>
+
+                    <ul class="profile__social">
+                        <a href="/cdn-cgi/l/email-protection#e18b888f968e8ea184928984938d8e8e8fcf828e8c" target="_blank" class="profile__social-link" title="이메일">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                        <a href="https://github.com/jinoo2005609" target="_blank" class="profile__social-link" title="GitHub">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <a href="javascript:location.reload();" class="profile__social-link" title="새로고침">
+                            <i class="ri-refresh-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">2년째</h3>
+                        <p class="profile__info-description">
+                            서버 운영
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4개+</h3>
+                        <p class="profile__info-description">
+                            사이트 운영
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">1K+</h3>
+                        <p class="profile__info-description">
+                            일일 접속자
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a href="https://dl.esherloon.com/" target="_blank" class="button">
+                        MSDN 다운로드 <i class="ri-arrow-right-circle-line"></i>
+                    </a>
+
+                    <a href="https://toss.me/chaejinwoo" target="_blank" class="button button__gray">
+                        서버 지원 <i class="ri-hand-coin-line"></i>
+                    </a>
+
+<!--                    <div class="profile__buttons-small">
+                        <a href="https://toss.me/chaejinwoo" target="_blank" class="button button__small button__gray" title="서버 지원하기">
+                            <i class="ri-hand-coin-line"></i>
+                        </a>
+
+                        <a href="#" class="button button__small button__gray">
+                            <i class="ri-hand-coin-line"></i>
+                        </a>
+                    </div>-->
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        프로젝트
+                    </button>
+
+                    <button class="filters__button" data-target="#about">
+                        정보
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/esherloon.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">MSDN ISO 다운로더 UI</span>
+                                    <h3 class="projects__title">에셜룬의 서버</h3>
+                                    <a href="https://dl.esherloon.com/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/drive.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">MSDN ISO 미러 서버</span>
+                                    <h3 class="projects__title">에셜룬의 드라이브</h3>
+                                    <a href="https://drive.esherloon.com/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/blog.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">티스토리 블로그</span>
+                                    <h3 class="projects__title">에셜룬의 IT 블로그</h3>
+                                    <a href="https://blog.esherloon.com/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/vanced.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">유튜브 밴스드 미러 서버</span>
+                                    <h3 class="projects__title">YouTube Vanced Mirror</h3>
+                                    <a href="https://vanced.esherloon.com/" target="_blank" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== ABOUT ===============-->
+                    <div class="about__content grid" data-content id="about">
+                        <div class="about__area">
+                            <h3 class="about__title">
+                                Who is Esherloon?
+                            </h3>
+
+                            <div class="about__box">
+                                <div class="about__group">
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">닉네임</h3>
+                                            <span class="about__level">에셜룬</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">영문 닉네임</h3>
+                                            <span class="about__level">Esherloon</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about__group">
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">직업</h3>
+                                            <span class="about__level">은 없고 아직 학생이에요.</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <!--<div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name"></h3>
+                                            <span class="about__level"></span>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about__area">
+                            <h3 class="about__title">
+                                Server is running on
+                            </h3>
+
+                            <div class="about__box">
+                                <div class="about__group">
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">Cloud</h3>
+                                            <span class="about__level">Microsoft Azure</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">Cloud</h3>
+                                            <span class="about__level">Oracle Cloud</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about__group">
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">Cloud</h3>
+                                            <span class="about__level">DigitalOcean</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="about__data">
+                                        <i class="ri-arrow-right-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="about__name">Cloud</h3>
+                                            <span class="about__level">Google Cloud</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <br></br><center><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jinoo2005609" data-color="#FFDD00" data-emoji="🍗"  data-font="Poppins" data-text="Buy me a Chicken" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script></center>
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; 2022. Esherloon All Rights Reserved.
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <!--<script src="https://unpkg.com/scrollreveal"></script>-->
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script> var myToast = Toastify({
+        text: "서버를 유지하기 위해서는 여러분의 도움이 필요해요. :)",
+        duration: 5000,
+        destination: "https://toss.me/chaejinwoo",
+        newWindow: true,
+        close: false,
+        gravity: "top", // `top` or `bottom`
+        position: "center", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #8baaaa, #ae8b9c)",
+        },
+        onClick: function(){} // Callback after click
+        }).showToast();
+        </script>
+    </body>
+</html>
